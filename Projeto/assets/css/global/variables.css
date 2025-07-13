@@ -1,3 +1,10 @@
-/* variaveis, cor, tamanho de fonte, eu acredito, e etc 
-:root {}
-*/
+:root {
+    --fundo-primario: #0B1D51;
+    --fundo-secundario: #11296B;
+    --borda-input: #1E3A8A;
+    --botao: #2244A6;
+    --hover-e-cards: #3B82F6;
+    --texto-primario: #E5E7EB;
+    --texto-secundario: #9CA3AF;
+    --detalhes: #FACC15;
+}
