@@ -1,10 +1,15 @@
 :root {
-    --fundo-primario: #0B1D51;
-    --fundo-secundario: #11296B;
-    --borda-input: #1E3A8A;
-    --botao: #2244A6;
-    --hover-e-cards: #3B82F6;
-    --texto-primario: #E5E7EB;
-    --texto-secundario: #9CA3AF;
-    --detalhes: #FACC15;
+    --azul-fundo-primario: #0B1D51;
+    --azul-fundo-secundario: #11296B;
+    --azul-borda-input: #1E3A8A;
+    --azul-botao: #2244A6;
+    --azul-hover-e-cards: #2563EB;
+    --azul-texto-primario: #E5E7EB;
+    --azul-texto-secundario: #9CA3AF;
+    --azul-detalhes: #FACC15;
+    --escuro-preto: #000000;
+    --escuro-cinza-escuro: #292B2C;
+    --escuro-cinza: #555555;
+    --escuro-branco: #F0F0F0;
+    --escuro-detalhes: #FACC15;
 }
