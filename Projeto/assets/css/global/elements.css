@@ -1,0 +1,102 @@
+@import "variables.css";
+@import "fonts.css";
+
+/* header */
+.header-logado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  background-color: var(--azul-fundo-secundario);
+  height: 130px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+header a {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: var(--azul-texto-primario);
+  font-family: "Inter", sans-serif;
+}
+
+#perfil-link {
+  width: 87px;
+  height: 88px;
+}
+
+#logo-link {
+  width: 86px;
+  height: 108px;
+}
+
+#atual {
+  text-decoration: underline;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--azul-fundo-secundario);
+  width: 100%;
+  height: 344px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.colunas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.colunas h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  color: var(--azul-texto-primario);
+
+}
+
+.coluna {
+  width: 333px;
+  height: 100%;
+}
+
+.linha-vertical {
+  width: 4px;
+  height: 265px;
+  background-color: var(--azul-detalhes);
+}
+
+.lista ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.lista ul li {
+  font-size: 24px;
+  font-weight: 400;
+}
