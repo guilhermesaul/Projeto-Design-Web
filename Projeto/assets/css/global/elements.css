@@ -100,3 +100,13 @@ footer ul {
   font-size: 24px;
   font-weight: 400;
 }
+
+#atual-footer {
+  text-decoration: underline;
+  color: var(--azul-detalhes);
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: var(--azul-detalhes);
+}
