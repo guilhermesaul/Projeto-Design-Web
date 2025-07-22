@@ -1,6 +1,18 @@
 @import "variables.css";
 @import "fonts.css";
 
+/* body */
+
+body {
+  background-color: var(--azul-fundo-primario);
+  font-family: "Inter", sans-serif;
+
+  h1,
+  h2 {
+    font-family: "Playfair Display", serif;
+  }
+}
+
 /* header */
 .header-logado {
   display: flex;
@@ -46,6 +58,53 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* main */
+
+.main-livros {
+  margin: 87.5px;
+
+  .secao-sinopse {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--azul-texto-primario);
+
+    h3 {
+      width: 100%;
+      font-size: 40px;
+      font-weight: 700;
+    }
+
+    .linha-branca {
+      width: 1725px;
+      height: 5px;
+      background-color: var(--azul-texto-primario);
+    }
+    .sinopse {
+      width: 1720px;
+      height: fit-content;
+      padding: 50px;
+      margin-top: 45px;
+      background-color: var(--azul-fundo-secundario);
+
+      .sinopse-texto {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        p {
+          margin: 0 25px 0 25px;
+          width: 100%;
+          text-align: justify;
+          font-size: 32px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+
 /* footer */
 
 footer {
@@ -71,12 +130,11 @@ footer ul {
 }
 
 .colunas h3 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 28px;
   font-weight: 500;
   margin-bottom: 60px;
   color: var(--azul-texto-primario);
-
 }
 
 .coluna {
