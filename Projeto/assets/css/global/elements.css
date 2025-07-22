@@ -61,7 +61,57 @@ nav ul li a:hover {
 /* main */
 
 .main-livros {
-  margin: 87.5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin: 90px;
+
+  .secao-dados-livros {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 567px;
+
+    img {
+      width: 391px;
+      height: 567px;
+      margin-right: 57px;
+    }
+    
+    h2 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 28px;
+      width: fit-content;
+      height: fit-content;
+      color: var(--azul-texto-primario);
+    }
+
+    .dados-livro {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 1250px;
+      height: 475px;
+      background-color: var(--azul-fundo-secundario);
+
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        
+        p {
+          font-size: 24px;
+          font-weight: 400;
+          width: 570px;
+          color: var(--azul-texto-primario);
+        }
+      }
+    }
+  }
 
   .secao-sinopse {
     display: flex;
@@ -103,7 +153,6 @@ nav ul li a:hover {
     }
   }
 }
-
 
 /* footer */
 
