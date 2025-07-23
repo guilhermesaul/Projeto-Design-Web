@@ -14,6 +14,8 @@ body {
 }
 
 /* header */
+
+/* header de quem é logado */
 .header-logado {
   display: flex;
   justify-content: space-between;
@@ -21,41 +23,39 @@ body {
   padding: 0 50px;
   background-color: var(--azul-fundo-secundario);
   height: 130px;
-}
 
-header nav ul {
-  display: flex;
-  list-style: none;
-  gap: 50px;
-}
+  #perfil-link {
+    width: 87px;
+    height: 88px;
+  }
 
-header a {
-  font-size: 32px;
-  font-weight: 400;
-}
+  #logo-link {
+    width: 86px;
+    height: 108px;
+  }
 
-a {
-  text-decoration: none;
-  color: var(--azul-texto-primario);
-  font-family: "Inter", sans-serif;
-}
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 50px;
 
-#perfil-link {
-  width: 87px;
-  height: 88px;
-}
+      li {
+        a {
+          font-size: 32px;
+          font-weight: 400;
+          text-decoration: none;
+          color: var(--azul-texto-primario);
+          font-family: "Inter", sans-serif;
+        }
 
-#logo-link {
-  width: 86px;
-  height: 108px;
-}
-
-#atual {
-  text-decoration: underline;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
+        a:hover,
+        #atual {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 
 /* main */
@@ -234,9 +234,6 @@ footer {
   width: 100%;
   height: 344px;
 
-  ul {
-  }
-
   .colunas {
     display: flex;
     justify-content: center;
@@ -268,6 +265,10 @@ footer {
             font-size: 24px;
             font-weight: 400;
 
+            a {
+              color: var(--azul-texto-primario);
+              text-decoration: none;
+            }
             #atual-footer {
               text-decoration: underline;
               color: var(--azul-detalhes);
