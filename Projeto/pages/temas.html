@@ -6,33 +6,32 @@
     <title>Temas</title>
     <link
       rel="shortcut icon"
-      href="/Projeto/assets/images/global/logo.png"
+      href="../assets/images/global/logo.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="/Projeto/assets/css/pages/temas.css">
+    <link rel="stylesheet" href="../assets/css/pages/temas.css">
   </head>
   <body>
     <header class="header-logado">
-      <a href="#" id="logo-link">
+      <a href="../index-logado.html" id="logo-link">
         <img
-          src="/Projeto/assets/images/global/logo.png"
+          src="../assets/images/global/logo.png"
           alt="Logo do Readscape"
-          class="logo"
         />
       </a>
 
       <nav>
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="/Projeto/pages/recomendados.html">Recomendados</a></li>
-          <li><a href="/Projeto/pages/temas.html">Temas</a></li>
-          <li><a href="/Projeto/pages/sobre-nos.html">Sobre</a></li>
-        </ul>
+            <ul>
+                <li><a href="../index-logado.html">Início</a></li>
+                <li><a href="recomendados.html">Recomendados</a></li>
+                <li><a href="temas.html">Temas</a></li>
+                <li><a href="sobre-nos.html" id="atual">Sobre</a></li>
+            </ul>
       </nav>
 
-      <a href="/Projeto/pages/perfil.html" id="perfil-link">
+      <a href="perfil.html" id="perfil-link">
         <img
-          src="/Projeto/assets/images/global/icone perfil.png"
+          src="../assets/images/global/icone perfil.png"
           alt="Ícone de Perfil"
           id="perfil"
         />
@@ -40,67 +39,70 @@
     </header>
 
     <main>
-        <section>
+        <section id="card-01">
             <div class="card-tema">
                 <h1>Tema Azul</h1>
-                <img src="/Projeto/assets/images/pages/temas/ex-tema-azul.png" alt="Exemplo de tema azul.">
+                <img src="../assets/images/pages/temas/ex-tema-azul.png" alt="Exemplo de tema azul.">
             </div>
         </section>
 
-        <section>
+        <section id="card-02">
             <div class="card-tema">
                 <h1>Tema Preto</h1>
-                <img src="/Projeto/assets/images/pages/temas/ex-tema-preto.png" alt="Exemplo de tema preto.">
+                <input type="button" value="">
+                <img src="../assets/images/pages/temas/ex-tema-preto.png" alt="Exemplo de tema preto.">
             </div>
         </section>
 
-        <section>
+        <section id="card-03">
             <div class="card-tema">
                 <h1>Tema Vermelho</h1>
-                <img src="/Projeto/assets/images/pages/temas/ex-tema-vermelho.png" alt="Exemplo de tema vermelho.">
+                <input type="button" value="">
+                <img src="../assets/images/pages/temas/ex-tema-vermelho.png" alt="Exemplo de tema vermelho.">
             </div>
         </section>
     </main>
 
     <footer>
-      <div class="colunas">
-        <div class="coluna">
-          <h3>Privacidade e Segurança</h3>
-          <div class="lista">
-            <ul>
-              <li><a href="/Projeto/pages/politica-privacidade.html">Política de Privacidade</a></li>
-              <li><a href="/Projeto/pages/termos-uso.html">Termos de Uso</a></li>
-              <li><a href="#">Cookies</a></li>
-            </ul>
-          </div>
+        <div class="colunas">
+
+            <div class="coluna">
+                <h3>Privacidade e Segurança</h3>
+                <div class="lista">
+                    <ul>
+                        <li><a href="../pages/politica-privacidade.html">Política de Privacidade</a></li>
+                        <li><a href="../pages/termos-uso.html">Termos de Uso</a></li>
+                        <li><a href="../pages/politica-cookies.html">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="linha-vertical"></div>
+    
+            <div class="coluna">
+                <h3>Perguntas Frequentes</h3>
+                <div class="lista">
+                    <ul>
+                        <li><a href="../pages/como-utilizamos-dados.html">Como Utilizamos Seus Dados?</a></li>
+                        <li><a href="../pages/como-contatar.html">Como nos contatar?</a></li>
+                        <li><a href="../pages/porque-readscape.html">Por que Readscape?</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="linha-vertical"></div>
+    
+            <div class="coluna">
+                <h3>Nossas redes sociais</h3>
+                <div class="lista">
+                    <ul>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.tiktok.com/" target="_blank">TikTok</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+            </div> 
         </div>
-
-        <div class="linha-vertical"></div>
-
-        <div class="coluna">
-          <h3>Perguntas Frequentes</h3>
-          <div class="lista">
-            <ul>
-              <li><a href="/Projeto/pages/como-utilizamos-dados.html">Como Utilizamos Seus Dados</a></li>
-              <li><a href="/Projeto/pages/como-contatar.html">Como nos contatar?</a></li>
-              <li><a href="/Projeto/pages/porque-readscape.html">Por que Readscape?</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="linha-vertical"></div>
-
-        <div class="coluna">
-          <h3>Nossas redes sociais</h3>
-          <div class="lista">
-            <ul>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">TikTok</a></li>
-              <li><a href="#">YouTube</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </footer>
   </body>
 </html>
