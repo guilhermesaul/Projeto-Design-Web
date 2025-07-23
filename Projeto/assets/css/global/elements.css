@@ -60,6 +60,36 @@ nav ul li a:hover {
 
 /* main */
 
+/* main das paginas do footer */
+.main-pag-footer {
+  align-content: center;
+  width: 1450px;
+  height: 605px;
+  margin: 115px auto;
+
+  .container-principal-das-pag-do-footer {
+    display: flex;
+    gap: 145px;
+
+    .texto-principal {
+      color: var(--azul-texto-primario);
+
+      h3 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 35px;
+      }
+
+      p {
+        margin-bottom: 2rem;
+        font-size: 24px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+/* main das paginas de descrição dos livros */
 .main-livros {
   display: flex;
   flex-wrap: wrap;
@@ -165,7 +195,6 @@ nav ul li a:hover {
       width: 1725px;
       height: 5px;
       background-color: var(--azul-texto-primario);
-      
     }
 
     .cards-colecao {
