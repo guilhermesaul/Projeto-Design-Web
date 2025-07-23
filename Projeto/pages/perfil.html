@@ -3,11 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- LEMBRAR MUDAR O NOME TITLE -->
+    <title>Perfil</title>
      <link rel="shortcut icon" href="../assets/images/global/logo.png" type="image/x-icon">
 </head>
 <body>
+    <header class="header-logado">
+      <a href="../index-logado.html" id="logo-link">
+        <img
+          src="../assets/images/global/logo.png"
+          alt="Logo do Readscape"
+        />
+      </a>
+
+      <nav>
+            <ul>
+                <li><a href="../index-logado.html">Início</a></li>
+                <li><a href="recomendados.html">Recomendados</a></li>
+                <li><a href="temas.html">Temas</a></li>
+                <li><a href="sobre-nos.html" id="atual">Sobre</a></li>
+            </ul>
+      </nav>
+
+      <a href="perfil.html" id="perfil-link">
+        <img
+          src="../assets/images/global/icone perfil.png"
+          alt="Ícone de Perfil"
+          id="perfil"
+        />
+      </a>
+    </header>
+
+    <main>
+        <section class="perfil">
+
+            <img src="../assets/images/global/icone perfil maior.png" alt="Ícone de Perfil" id="foto-perfil">
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Nome">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email">
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha"placeholder="Senha">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" placeholder="Telefone">
+
+                <label for="bio">Biografia</label>
+                <input type="text" id="bio" placeholder="Digite sua Biografia">
+            </form>
+
+        </section>
+
+        <section class="livros-favoritos">
+
+            <h1>Livros Favoritos</h1>
+            <div class="livros">
+
+                <a href="../pages/livros/verity.html">
+                    <div class="livro">
+                        <img src="../assets/images/global/livros/Verity.png" alt="Livro 1">
+                        <h4>Verity</h4>
+                        <h5>Colleen Hoover</h5>
+                    </div>
+                </a>
+
+                <a href="../pages/livros/alice-pais-maravilhas.html">
+                    <div class="livro">
+                        <img src="../assets/images/global/livros/Alice no país das maravilhas.png" alt="Livro 2">
+                        <h4>Alice no país das...</h4>
+                        <h5>Lewis Carroll</h5>
+                    </div>
+                </a>
+
+                <a href="../pages/livros/dois-morrem-final.html">
+                    <div class="livro">
+                        <img src="../assets/images/global/livros/Os dois morrem no final.png" alt="Livro 3">
+                        <h4>Os dois morrem...</h4>
+                        <h5>Adam Silvera</h5>
+                    </div>
+                </a>
+
+                <a href="../pages/livros/amor-nao-obvio.html">
+                    <div class="livro">
+                        <img src="../assets/images/global/livros/O amor não é óbvio.png" alt="Livro 4">
+                        <h4>O amor não é óbvio</h4>
+                        <h5>Elayne Baeta</h5>
+                    </div>
+                </a>
+
+                <a href="../pages/livros/menino-pijama-listrado.html">
+                    <div class="livro">
+                        <img src="../assets/images/global/livros/O menino do pijama listrado.png" alt="Livro 5">
+                        <h4>O menino do pija...</h4>
+                        <h5>John Boyne</h5>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="colunas">
+
+            <div class="coluna">
+                <h3>Privacidade e Segurança</h3>
+                <div class="lista">
+                    <ul>
+                        <li><a href="../pages/politica-privacidade.html">Política de Privacidade</a></li>
+                        <li><a href="../pages/termos-uso.html">Termos de Uso</a></li>
+                        <li><a href="../pages/politica-cookies.html">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
     
+            <div class="linha-vertical"></div>
+    
+            <div class="coluna">
+                <h3>Perguntas Frequentes</h3>
+                <div class="lista">
+                    <ul>
+                        <li><a href="../pages/como-utilizamos-dados.html">Como Utilizamos Seus Dados?</a></li>
+                        <li><a href="../pages/como-contatar.html">Como nos contatar?</a></li>
+                        <li><a href="../pages/porque-readscape.html">Por que Readscape?</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="linha-vertical"></div>
+    
+            <div class="coluna">
+                <h3>Nossas redes sociais</h3>
+                <div class="lista">
+                    <ul>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.tiktok.com/" target="_blank">TikTok</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </footer>
 </body>
 </html>
