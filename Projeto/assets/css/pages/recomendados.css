@@ -1,1 +1,74 @@
 @import "../global/global.css";
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.main-recomendados {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--azul-texto-primario);
+  width: 1650px;
+  height: fit-content;
+  gap: 80px;
+
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+  }
+
+  .cards-recomendados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 30px 70px;
+    width: 1650px;
+    height: fit-content;
+    scrollbar-width: none;
+    overflow: scroll;
+    background-color: var(--azul-botao);
+    border-radius: 20px;
+
+    h2 {
+      font-size: 48px;
+    }
+
+    .livros {
+      display: flex;
+      gap: 70px;
+
+      a {
+        .livro {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          width: fit-content;
+          height: fit-content;
+          text-align: center;
+
+          img {
+            width: 300px;
+            height: 450px;
+            margin-bottom: 20px;
+          }
+
+          .p-maior {
+            font-size: 32px;
+            width: 100%;
+          }
+
+          .p-menor {
+            width: 100%;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
