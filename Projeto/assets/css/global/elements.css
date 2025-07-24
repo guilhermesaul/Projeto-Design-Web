@@ -378,6 +378,73 @@ body {
   }
 }
 
+.main-recomendados {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px;
+  color: var(--azul-texto-primario);
+  justify-content: center;
+
+  h1 {
+    font-size: 56px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-right: 800px;
+  }
+
+  .cards-recomendados {
+    background-color: var(--azul-botao);
+    margin-top: 80px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 1650px;
+  
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    h2{
+      font-size: 48px;
+    }
+
+    .livros {
+      display: flex;
+      gap: 70px;
+      margin-top: 25px;
+
+      .livro {
+        width: 302px;
+        height: 541px;
+        display: inline-block;
+
+        img {
+          width: 302px;
+          height: 448px;
+          margin-bottom: 20px;
+        }
+
+        h4 {
+          font-size: 32px;
+          text-align: center;
+        }
+
+        h5 {
+          font-size: 24px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
 /* footer */
 
 footer {
