@@ -1,0 +1,71 @@
+@import "../global/global.css";
+
+.main-index {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--azul-texto-primario);
+  width: 100%;
+  height: fit-content;
+  gap: 80px;
+  margin: 0 auto;
+
+  .banner {
+    width: 100%;
+
+    img {
+      width: 100%;
+      margin-top: 125px;
+    }
+  }
+
+  .mais-populares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 30px 70px;
+    width: 1650px;
+    height: fit-content;
+    scrollbar-width: none;
+    overflow: scroll;
+    background-color: var(--azul-botao);
+    border-radius: 20px;
+
+    h2 {
+      font-size: 48px;
+    }
+
+    .livros {
+      display: flex;
+      gap: 70px;
+
+      a {
+        .livro {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          width: fit-content;
+          height: fit-content;
+          text-align: center;
+
+          img {
+            width: 300px;
+            height: 450px;
+            margin-bottom: 20px;
+          }
+
+          .p-maior {
+            font-size: 32px;
+            width: 100%;
+          }
+
+          .p-menor {
+            width: 100%;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
