@@ -19,7 +19,8 @@ body {
   gap: 80px;
 
   .banner {
-    a, img {
+    a,
+    img {
       width: 100%;
     }
   }
@@ -75,12 +76,12 @@ body {
     }
   }
   .mais-e-menos-visitados {
-  display: flex;
-  flex-wrap: wrap;
-  color: var(--azul-texto-primario);
-  width: 1650px;
-  height: fit-content;
-  gap: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--azul-texto-primario);
+    width: 1650px;
+    height: fit-content;
+    gap: 110px;
 
     .card-visitados {
       display: flex;
@@ -96,14 +97,14 @@ body {
       border-radius: 20px;
 
       h2 {
-      font-size: 48px;
+        font-size: 48px;
       }
 
-      .livro-menor{
+      .livro-menor {
         display: flex;
         gap: 40px;
       }
-      
+
       a {
         .livro {
           display: flex;
@@ -135,20 +136,26 @@ body {
   }
   .readscape {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    align-items: flex-start;
     width: 1650px;
-    height: fit-content;
-    margin: 115px auto;
+    height: 580px;
+    gap: 138px;
+    margin-bottom: 100px;
+
+    div {
+      width: fit-content;
+      text-align: justify;
 
       h3 {
-      font-size: 40px;
-      font-weight: 700;
-      margin-bottom: 10px;
-      color: var(--azul-detalhes);
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: var(--azul-detalhes);
+        width: 1050px;
       }
 
-      .linha-dourada{
+      .linha-dourada {
         width: 1050px;
         height: 5px;
         background-color: var(--azul-detalhes);
@@ -158,13 +165,18 @@ body {
         margin-bottom: 2rem;
         font-size: 24px;
         font-weight: 500;
+        width: 1050px;
+        height: fit-content;
       }
-        
-      .logo-readscape img{
-        width: 300px;
-        height: auto;
-        margin-top: 10px;
+    }
+    a {
+      height: 580px;
+      width: 462px;
+
+      img {
+        width: 100%;
+        height: 100%;
       }
     }
   }
- 
+}
