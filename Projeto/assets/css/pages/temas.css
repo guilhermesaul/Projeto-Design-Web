@@ -1,0 +1,52 @@
+@import "../global/global.css";
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.card-tema {
+    width: 90%;
+    max-width: 1300px;
+    background-color: #2244A6;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+}
+
+.card-tema input[type="button"] {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.card-tema h1 {
+    
+    font-size: 56;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.card-tema img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-tema input[type="button"] {
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
