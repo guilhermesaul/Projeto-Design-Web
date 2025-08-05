@@ -65,11 +65,13 @@ body {
           .p-maior {
             font-size: 32px;
             width: 100%;
+            font-weight: 500;
           }
 
           .p-menor {
             width: 100%;
             font-size: 24px;
+            font-weight: 500;
           }
         }
       }
