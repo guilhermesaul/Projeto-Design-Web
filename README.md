@@ -1,3 +1,3 @@
-# Projeto-Design-Web
+# Readscape 📚
 
-Projeto da disciplina de design web, onde fizemos primeiramente o figma para depois fazermos o codigo (html, css e um pouquinho de js).
+Readscape é um site de blog sobre livros, inspirado Skoob, mas muito mais simples.
